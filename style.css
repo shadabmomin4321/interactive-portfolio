@@ -1,0 +1,227 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f4f4f4;
+  color: #333;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 40px;
+  background: #111;
+  color: #fff;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin-left: 25px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+/* HERO */
+.hero {
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #222;
+  color: white;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 40px;
+}
+
+.hero span {
+  color: #4db8ff;
+  font-weight: bold;
+}
+
+.resume-btn {
+  margin-top: 20px;
+  padding: 12px 25px;
+  font-size: 18px;
+  background: #4db8ff;
+  border: none;
+  color: #000;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.resume-btn:hover {
+  background: #fff;
+  color: #000;
+}
+.about {
+  padding: 60px 40px;
+  background: white;
+  color: #222;
+}
+
+.about h2 {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #111;
+}
+
+.about p {
+  max-width: 850px;
+  margin: 0 auto;
+  font-size: 18px;
+  line-height: 1.6;
+  text-align: center;
+}
+.skills {
+  padding: 60px 40px;
+  text-align: center;
+  background: #f4f4f4;
+}
+
+.skills h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.skill-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 18px;
+}
+
+.skill-grid span {
+  background: #111;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-size: 16px;
+}
+.projects {
+  padding: 60px 40px;
+  text-align: center;
+  background: white;
+}
+
+.projects h2 {
+  font-size: 32px;
+  margin-bottom: 25px;
+}
+
+.project-card {
+  background: #111;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 650px;
+  margin: 15px auto;
+  text-align: left;
+}
+
+.project-card h3 {
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+
+.project-card a {
+  display: inline-block;
+  margin-right: 20px;
+  color: #4db8ff;
+  margin-top: 10px;
+  text-decoration: none;
+}
+
+.project-card a:hover {
+  text-decoration: underline;
+}
+.chat-section {
+  padding: 60px 40px;
+  background: #f4f4f4;
+  text-align: center;
+}
+
+.chat-box {
+  width: 70%;
+  height: 220px;
+  background: white;
+  margin: 0 auto;
+  padding: 15px;
+  overflow-y: scroll;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.chat-input {
+  margin-top: 15px;
+}
+
+#user-input {
+  width: 50%;
+  padding: 10px;
+  font-size: 18px;
+}
+
+button {
+  padding: 10px 20px;
+  margin-left: 5px;
+  background: #4db8ff;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.contact {
+  padding: 60px 40px;
+  text-align: center;
+  background: #fff;
+}
+
+.contact a {
+  color: #4db8ff;
+  text-decoration: none;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+}
+.contact {
+  padding: 60px 40px;
+  text-align: center;
+  background: #fff;
+  color: #111;
+}
+
+.contact a {
+  color: #4db8ff;
+  text-decoration: none;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+}
+.footer {
+  background: #111;
+  text-align: center;
+  padding: 15px;
+  color: white;
+  font-size: 14px;
+}
